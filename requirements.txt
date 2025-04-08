@@ -1,0 +1,8 @@
+pygame-ce
+pygame-menu-ce
+PyGLM
+moderngl
+numpy
+numba
+opensimplex
+coloredlogs
