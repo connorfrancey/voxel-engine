@@ -7,6 +7,9 @@ import numpy as np
 from pyglm import glm
 import math
 
+# Raycasting
+MAX_RAY_DIST = 6
+
 # Window resolution
 WINDOW_RES = glm.vec2(800, 600)
 

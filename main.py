@@ -82,6 +82,8 @@ class VoxelEngine:
             # Quit the game
             if event.type == pg.QUIT or (event.type == pg.KEYDOWN and event.key == pg.K_ESCAPE):
                 self.is_running = False
+            # Handle player events
+            self.player.handle_event(event=event)
 
     def run(self):
         # Main game loop
